@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura's Portfolio</title>
+
+    <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+
+    <!--Bootstrap CSS Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- Bootstrap Javascript link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!--My Javscript-->
+    <!-- Swiper style sheet -->
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="Contact.css">
+    <link rel="stylesheet" type="text/css" href="Swiper.css">
+</head>
+
+<body>
+  
+  <!-- Navbar Wrapper -->
+  <div class="wrapper">  
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <!-- Navbar Image -->
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" href="index.html" style=" font: xx-large; font-weight: bold;">Laura's Home</a>
+          <!-- Navbar Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+            <!-- Navbar List -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html" style="text-align: right;">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html" style="text-align: right;">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html" style="text-align: right;">Contact & Info</a>
+                </li>
+              </ul>
+            </div>
+    </nav>
+  </div>
+
+
+    <!-- Swiper -->
+    <div class="swipe-away">
+
+
+
+    <div class="swiper-container top-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url(./Assets/Team-profile.png); "></div>
+        <div class="swiper-slide" style="background-image:url();">Coming Soon</div>
+        <div class="swiper-slide" style="background-image:url(./Assets/README.png);"></div>
+        <div class="swiper-slide" style="background-image:url(./Assets/Quarantinis.png);"></div>
+        <div class="swiper-slide" style="background-image:url(./Assets/Weather.png);"></div>
+        <!--<div class="swiper-slide" style="background-image:url(./images/nature-6.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./images/nature-7.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./images/nature-8.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./images/nature-9.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./Assets/School-two.png)"></div>-->
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+
+
+    <!--<div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>-->
+    </div>
+
+    <hr>
+    <div class="swiper-container acc-text ">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide bottom">
+            <h3 class="app-name">Team-Profile Generator</h3>
+            <br>
+            <p class="technology">Node.js, JavaScript, Jest, HTML, CSS</p>
+            <p class="description">Generates a team roster based on user input.</p>
+            <div class="links">
+              <p class="github"><a  href="https://github.com/lauraaupert/team-profile-generator" target="_blank">GitHub</a></p>
+              <p class="deployed"><a href="#">Heroku</a></p>
+            </div>
+          </div>
+          <div class="swiper-slide bottom">
+            <h3 class="app-name">Santa Margarita Website</h3>
+            <br>
+            <p class="technology">Front End: JavaScript, HTML, CSS</p>
+            <p class="description">Worked with a UI designer to create this children's center website.</p>
+            <div class="links">
+              <p class="github"><a  href="https://github.com/lauraaupert/team-profile-generator" target="_blank">GitHub</a></p>
+              <p class="deployed"><a href="#">Website</a></p>
+            </div>
+          </div>
+          <div class="swiper-slide bottom">
+            <h3 class="app-name">README.md Generator</h3>
+            <br>
+            <p class="technology">Node.js, JavaScript, HTML, CSS</p>
+            <p class="description">Generates a README.md based on user input.</p>
+            <div class="links">
+              <p class="github"><a  href="https://github.com/lauraaupert/team-profile-generator" target="_blank">GitHub</a></p>
+              <p class="deployed"><a href="#">Heroku</a></p>
+            </div>
+          </div>
+          <div class="swiper-slide bottom">
+            <h3 class="app-name">Quarantinis</h3>
+            <br>
+            <p class="technology">JavaScript, jQuery, HTML, CSS</p>
+            <p class="description">Javascript developer in a team of four.</p> 
+            <p class="description">Quarantinis is meant to save souls during this pandemic - random cocktail suggestions are paired with relaxing music.</p> 
+            </p>
+            <div class="links">
+              <p class="github"><a  href="https://github.com/lauraaupert/team-profile-generator" target="_blank">GitHub</a></p>
+              <p class="deployed"><a href="#">Heroku</a></p>
+            </div>
+          </div>
+          <div class="swiper-slide bottom">
+            <h3 class="app-name">Weather Dashboard</h3>
+            <br>
+            <p class="technology">JavaScript, OpenWeatherMap API, HTML, CSS</p>
+            <p class="description">Searches for weather conditions based on city.</p>
+            <div class="links">
+              <p class="github"><a  href="https://github.com/lauraaupert/team-profile-generator" target="_blank">GitHub</a></p>
+              <p class="deployed"><a href="#">Github</a></p>
+            </div>
+          </div>
+          <!--<div class="swiper-slide bottom">
+            <h3 class="app-name">Team-Profile Generator</h3>
+            <br>
+            <p class="technology">Node.js, JavaScript, Jest, HTML, CSS</p>
+            <p class="description">Generates a team roster based on user input.</p>
+            <div class="links">
+              <p class="github"><a  href="https://github.com/lauraaupert/team-profile-generator" target="_blank">GitHub</a></p>
+              <p class="deployed"><a href="#">Heroku</a></p>
+            </div>
+          </div>
+          <div class="swiper-slide bottom">
+            <h3 class="app-name">Team-Profile Generator</h3>
+            <br>
+            <p class="technology">Node.js, JavaScript, Jest, HTML, CSS</p>
+            <p class="description">Generates a team roster based on user input.</p>
+            <div class="links">
+              <p class="github"><a  href="https://github.com/lauraaupert/team-profile-generator" target="_blank">GitHub</a></p>
+              <p class="deployed"><a href="#">Heroku</a></p>
+            </div>
+          </div>
+
+          <!--
+          <div class="swiper-slide bottom"><h3>valhalla</h3><br><h3>GITHUB</h3>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+          <div class="swiper-slide bottom">Slide 3 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+          <div class="swiper-slide bottom">Slide 4 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+          <div class="swiper-slide bottom">Slide 5"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+          <div class="swiper-slide bottom">Slide 6"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+          <div class="swiper-slide bottom">Slide 7"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+          <div class="swiper-slide bottom">Slide 8"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+          <div class="swiper-slide bottom">Slide 9</div>
+          <div class="swiper-slide bottom">Slide 10</div>-->
+      </div>
+    </div>
+
+
+
+
+    <!--<div class="swiper-container gallery-thumbs">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url(./Assets/WeatherApp.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./Assets/WeatherApp.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./Assets/WeatherApp.png)"></div>
+        <div class="swiper-slide" style="background-image:url(./images/nature-4.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./images/nature-5.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./images/nature-6.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./images/nature-7.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./images/nature-8.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./images/nature-9.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./images/nature-10.jpg)"></div>
+      </div>
+    </div>-->
+  
+</div>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="portfolio.js"></script>
+
+
+    
+  <!-- Grid Layout: Container 
+    <div class="container-fluid">
+
+    <!-- Title Row 
+      <div class="row no-gutter portfolio-header" style="background-color:white; margin-top: 100px">
+        <!-- Title Column 
+        <div class="col-md-12">
+          <!-- Header 
+          <h1 class="header">Portfolio</h1>
+        </div>
+      </div>
+
+      <div class="row portfolio-row">
+        <!-- Column 1 
+        <div class="col-md-12">
+          <!-- Card 1 
+          <div class="card portfolio-card-one">
+            <!-- Image Card 1 
+            <img class="card-img-top" src="Assets/Quarantinis.png" alt="Quarantinis App">
+            <hr>
+              <!-- Div Card Body 
+              <div class="card-body">
+                <h4 class="card-title">Quarantinis</h4>
+                  <div class="portfolio-links"> 
+                    <a href="https://lauraaupert.github.io/Quarantinis//" target="_blank">
+                    <h6 class="card-link" style="text-align: center;">Website</h6></a>
+                    <a href="https://github.com/lauraaupert/Quarantinis" target="_blank">
+                    <h6 class="card-link" style="text-align: center;">GitHub</h6></a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="row portfolio-row">
+          <!-- Column 1 
+          <div class="col-md-5">
+            <!-- Card 1 
+            <div class="card portfolio-card">
+              <!-- Image Card 1 
+              <img class="card-img-top" src="Assets/WeatherApp.png" alt="Weather App">
+              <hr>
+                <!-- Div Card Body 
+                <div class="card-body">
+                  <h4 class="card-title">Weather Dashboard</h4>
+                    <div class="portfolio-links"> 
+                      <a href="https://lauraaupert.github.io/Weather_Dashboard/" target="_blank">
+                      <h6 class="card-link" style="text-align: center;">Website</h6></a>
+                      <a href="https://github.com/lauraaupert/Weather_Dashboard" target="_blank">
+                      <h6 class="card-link" style="text-align: center;">GitHub</h6></a>
+                    </div>
+                </div>
+            </div>
+          </div>
+            <!-- Column 1 
+            <div class="col-md-5">
+              <!-- Card 1 
+              <div class="card portfolio-card">
+                <!-- Image Card 1 
+                <img class="card-img-top" src="Assets/DailyPlanner.png" alt="Daily Planner">
+                <hr>
+                  <!-- Div Card Body 
+                  <div class="card-body">
+                    <h4 class="card-title">Daily Planner</h4>
+                      <div class="portfolio-links"> 
+                        <a href="https://lauraaupert.github.io/Daily-Planner/" target="_blank">
+                        <h6 class="card-link" style="text-align: center;">Website</h6></a>
+                        <a href="https://github.com/lauraaupert/Daily-Planner" target="_blank">
+                        <h6 class="card-link" style="text-align: center;">GitHub</h6></a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div> 
+    
+  </div>
+ 
+  <!-- Sticky Bottom 
+  <div class="fixed-bottom">
+      <a href=contact.html>Get in touch!</a></div>-->
+
+
+</body>
+</html>
+
+
+
+
+<!-- for future improvements -->
+<!-- swiper try start 
+<div class="swiper-container swiper-container-coverflow swiper-container-3d swiper-container-initialized swiper-container-horizontal" style="cursor: grab;">
+  <div class="swiper-wrapper" id="swiper-wrapper-e5f061812dbb473c" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1106.5px, 0px, 0px);">
+    <div class="swiper-slide" style="background-image: url(&quot;./Assets/Quarantinis.png&quot;);transition-duration: 0ms; transform: translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(200deg) scale(1); z-index: -3;" role="group" aria-label="1 / 10">
+
+        <!-- Image Card 1 
+        <img class="card-img-top" src="Assets/Quarantinis.png" alt="Quarantinis App">
+        <hr>
+          <!-- Div Card Body 
+        
+<div class="swiper-slide-shadow-left" style="opacity: 4; transition-duration: 0ms;"></div>
+<div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+</div>
+
+    <div class="swiper-slide" style="background-image: url(&quot;./Assets/image/giveback2.jpg&quot;); transition-duration: 0ms; transform: translate3d(0px, 0px, -300px) rotateX(0deg) rotateY(150deg) scale(1); z-index: -2;" role="group" aria-label="2 / 10">
+      
+      <div class="swiper-slide-shadow-left" style="opacity: 3; transition-duration: 0ms;"></div>
+      <div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;">
+      </div>
+    </div>
+    <div class="swiper-slide" style="background-image: url(&quot;./Assets/image/giveback3.jpg&quot;); transition-duration: 0ms; transform: translate3d(0px, 0px, -200px) rotateX(0deg) rotateY(100deg) scale(1); z-index: -1;" role="group" aria-label="3 / 10"><div class="swiper-slide-shadow-left" style="opacity: 2; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div></div>
+    <div class="swiper-slide swiper-slide-prev" style="background-image: url(&quot;./Assets/image/giveback4.jpg&quot;); transition-duration: 0ms; transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(50deg) scale(1); z-index: 0;" role="group" aria-label="4 / 10"><div class="swiper-slide-shadow-left" style="opacity: 1; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div></div>
+    <div class="swiper-slide swiper-slide-active" style="background-image: url(&quot;./Assets/image/giveback5.jpg&quot;); transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1); z-index: 1;" role="group" aria-label="5 / 10"><div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div></div>
+    <div class="swiper-slide swiper-slide-next" style="background-image: url(&quot;./Assets/image/giveback6.jpg&quot;); transition-duration: 0ms; transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(-50deg) scale(1); z-index: 0;" role="group" aria-label="6 / 10"><div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 1; transition-duration: 0ms;"></div></div>
+    <div class="swiper-slide" style="background-image: url(&quot;./Assets/image/giveback7.jpg&quot;); transition-duration: 0ms; transform: translate3d(0px, 0px, -200px) rotateX(0deg) rotateY(-100deg) scale(1); z-index: -1;" role="group" aria-label="7 / 10"><div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 2; transition-duration: 0ms;"></div></div>
+    <div class="swiper-slide" style="background-image: url(&quot;./Assets/image/giveback8.jpg&quot;); transition-duration: 0ms; transform: translate3d(0px, 0px, -300px) rotateX(0deg) rotateY(-150deg) scale(1); z-index: -2;" role="group" aria-label="8 / 10"><div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 3; transition-duration: 0ms;"></div></div>
+    <div class="swiper-slide" style="background-image: url(&quot;./Assets/image/giveback9.jpg&quot;); transition-duration: 0ms; transform: translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(-200deg) scale(1); z-index: -3;" role="group" aria-label="9 / 10"><div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 4; transition-duration: 0ms;"></div></div>
+    <div class="swiper-slide" style="background-image: url(&quot;./Assets/image/giveback10.jpg&quot;); transition-duration: 0ms; transform: translate3d(0px, 0px, -500px) rotateX(0deg) rotateY(-250deg) scale(1); z-index: -4;" role="group" aria-label="10 / 10"><div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 5; transition-duration: 0ms;"></div></div>
+  </div>
+  <!-- Add Pagination 
+  <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+  <!-- If we need navigation buttons 
+  <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-e5f061812dbb473c" aria-disabled="false"></div>
+  <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-e5f061812dbb473c" aria-disabled="false"></div>
+<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+</div>
+<!--Old
+  Additional required wrapper 
+<div class="swiper-wrapper">
+    <div class="swiper-slide">Quarantinis
+      <div class="card portfolio-card-one">
+        <img class="card-img-top" src="Assets/Quarantinis.png" alt="Quarantinis App">
+        <hr>
+          <div class="card-body">
+            <h4 class="card-title">Quarantinis</h4>
+              <div class="portfolio-links"> 
+                <a href="https://lauraaupert.github.io/Quarantinis//" target="_blank">
+                <h6 class="card-link" style="text-align: center;">Website</h6></a>
+                <a href="https://github.com/lauraaupert/Quarantinis" target="_blank">
+                <h6 class="card-link" style="text-align: center;">GitHub</h6></a>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="swiper-slide">Weather Dashboard
+      <div class="card portfolio-card">
+        <img class="card-img-top" src="Assets/WeatherApp.png" alt="Weather App">
+        <hr>
+          <div class="card-body">
+            <h4 class="card-title">Weather Dashboard</h4>
+              <div class="portfolio-links"> 
+                <a href="https://lauraaupert.github.io/Weather_Dashboard/" target="_blank">
+                <h6 class="card-link" style="text-align: center;">Website</h6></a>
+                <a href="https://github.com/lauraaupert/Weather_Dashboard" target="_blank">
+                <h6 class="card-link" style="text-align: center;">GitHub</h6></a>
+              </div>
+          </div>
+      </div>
+
+    </div>
+
+    <div class="swiper-slide">Daily Planner              
+      <div class="card portfolio-card">
+      <!-- Image Card 1 
+      <img class="card-img-top" src="Assets/DailyPlanner.png" alt="Daily Planner">
+      <hr>
+        <!-- Div Card Body 
+        <div class="card-body">
+          <h4 class="card-title">Daily Planner</h4>
+            <div class="portfolio-links"> 
+              <a href="https://lauraaupert.github.io/Daily-Planner/" target="_blank">
+              <h6 class="card-link" style="text-align: center;">Website</h6></a>
+              <a href="https://github.com/lauraaupert/Daily-Planner" target="_blank">
+              <h6 class="card-link" style="text-align: center;">GitHub</h6></a>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- If we need pagination
+<div class="swiper-pagination swiper-pagination-bullets">
+  <span class="swiper-pagination-bullet"></span>
+  <span class="swiper-pagination-bullet"></span>
+  <span class="swiper-pagination-bullet"></span>
+
+</div>
+
+<!-- If we need navigation buttons
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+
+<!-- If we need scrollbar
+<div class="swiper-scrollbar"></div>
+</div>
+-->
+
+<!-- swiper try end -->
+

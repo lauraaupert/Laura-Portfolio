@@ -1,0 +1,76 @@
+.swipe-away {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 400px;
+    background: cover; 
+    background-repeat: no-repeat;
+    background-size: 80%;
+    color: dimgrey;
+    color: slategrey;
+    /*color: grey;*/
+
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+ 
+  .acc-text {
+    padding-top: 0px;
+    /*width: 550px;*/
+    width: 800px;
+    overflow: hidden;
+  }
+  .bottom {
+    font-family: 'Spartan', sans-serif;
+    width: 100%;
+    border-radius: 4px;
+    height: auto;
+  }
+  .app-name {
+    font-weight: bolder;
+  }
+
+
+  .technology {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 20px;
+    text-align: center;
+  }
+  .deployed {
+    float: left;
+  }
+  /*.links {
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }*/
